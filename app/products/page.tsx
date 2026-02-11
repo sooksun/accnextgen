@@ -305,6 +305,19 @@ export default function ProductsPage() {
             </div>
           </CardHeader>
           <CardContent className="p-4 space-y-4">
+            {/* สถานะการใช้งาน */}
+            <div className="rounded-lg bg-slate-50 border border-slate-200 p-3 text-xs text-slate-600">
+              <div className="font-medium text-slate-700 mb-1">สถานะการใช้งาน</div>
+              <ul className="list-disc list-inside space-y-0.5">
+                <li><strong>Demo</strong> — ใช้ได้ทันที (ข้อมูลตัวอย่างจากสคริปต์)</li>
+                {fetchMethod === "scrape" ? (
+                  <li><strong>Scraping จริง</strong> — เลือก &quot;ระบุ URL เอง&quot; แล้วใส่ลิงก์หน้าเว็บ (ผลลัพธ์ขึ้นกับโครงหน้าเว็บและอาจถูกจำกัด)</li>
+                ) : (
+                  <li><strong>API จริง</strong> — ต้องตั้งค่า API Key ในไฟล์ .env ของแต่ละแพลตฟอร์มก่อน</li>
+                )}
+              </ul>
+            </div>
+
             {/* Method Toggle */}
             <div className="flex gap-2">
               <Button
@@ -756,7 +769,23 @@ export default function ProductsPage() {
                   <TableRow key={product.id} className={product.isActive ? "" : "opacity-50"}>
                     <TableCell className="w-12 p-1">
                       {product.imageUrl ? (
-                        <img src={product.imageUrl} alt={product.name} className="w-10 h-10 object-cover rounded border" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+                        <div className="relative w-10 h-10">
+                          <img
+                            src={product.imageUrl}
+                            alt={product.name}
+                            className="w-10 h-10 object-cover rounded border"
+                            loading="lazy"
+                            onError={(e) => {
+                              const img = e.target as HTMLImageElement;
+                              img.style.display = "none";
+                              const fallback = img.nextElementSibling as HTMLElement;
+                              if (fallback) fallback.style.display = "flex";
+                            }}
+                          />
+                          <div className="w-10 h-10 bg-slate-100 rounded flex items-center justify-center absolute inset-0" style={{ display: "none" }}>
+                            <Package className="h-4 w-4 text-slate-300" />
+                          </div>
+                        </div>
                       ) : (
                         <div className="w-10 h-10 bg-slate-100 rounded flex items-center justify-center">
                           <Package className="h-4 w-4 text-slate-300" />

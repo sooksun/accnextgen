@@ -1246,102 +1246,102 @@ DEMO_DATA = {
 def _demo_default() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("PAP-A4-80", "กระดาษ A4 80 แกรม (5 รีม)", 750, 50, "https://img.example.com/paper-a4.jpg", "https://shop.example.com/paper-a4", now, "อุปกรณ์สำนักงาน"),
-        ScrapedGoods("INK-HP680-BK", "หมึกพิมพ์ HP 680 Black", 450, None, "https://img.example.com/ink-hp680-bk.jpg", "https://shop.example.com/ink-hp680-bk", now, "อุปกรณ์สำนักงาน"),
-        ScrapedGoods("INK-HP680-CL", "หมึกพิมพ์ HP 680 Color", 520, 30, "https://img.example.com/ink-hp680-cl.jpg", "https://shop.example.com/ink-hp680-cl", now, "อุปกรณ์สำนักงาน"),
-        ScrapedGoods("PEN-05-BOX", "ปากกาลูกลื่น 0.5mm (กล่อง 12 ด้าม)", 180, None, "https://img.example.com/pen-05.jpg", "https://shop.example.com/pen-05", now, "เครื่องเขียน"),
-        ScrapedGoods("FLD-A4-W", "แฟ้มสันกว้าง A4", 45, 5, None, "https://shop.example.com/folder-a4", now, "เครื่องเขียน"),
-        ScrapedGoods("NB-A5-LN", "สมุดบันทึก A5 มีเส้น", 65, None, "https://img.example.com/notebook-a5.jpg", "https://shop.example.com/notebook-a5", now, "เครื่องเขียน"),
-        ScrapedGoods("GLU-UHU-21", "กาวแท่ง UHU 21g", 35, None, None, "https://shop.example.com/glue-uhu", now, "เครื่องเขียน"),
-        ScrapedGoods("CLP-108", "คลิปหนีบกระดาษ No.108 (กล่อง)", 25, None, "https://img.example.com/clip-108.jpg", "https://shop.example.com/clip-108", now, "เครื่องเขียน"),
-        ScrapedGoods("STP-MAX-10", "เครื่องเย็บกระดาษ MAX HD-10", 220, 20, "https://img.example.com/stapler-max.jpg", "https://shop.example.com/stapler-max", now, "เครื่องเขียน"),
-        ScrapedGoods("STW-10", "ลวดเย็บ No.10 (กล่อง)", 15, None, None, "https://shop.example.com/staple-wire", now, "เครื่องเขียน"),
-        ScrapedGoods("PC-DELL-V", "คอมพิวเตอร์ Dell Vostro i5/8GB/256SSD", 18500, 1500, "https://img.example.com/dell-vostro.jpg", "https://shop.example.com/dell-vostro", now, "คอมพิวเตอร์"),
-        ScrapedGoods("MON-24", "จอมอนิเตอร์ 24 นิ้ว IPS", 4500, 300, "https://img.example.com/monitor-24.jpg", "https://shop.example.com/monitor-24", now, "คอมพิวเตอร์"),
-        ScrapedGoods("KB-USB", "คีย์บอร์ด USB", 350, None, "https://img.example.com/keyboard.jpg", "https://shop.example.com/keyboard", now, "คอมพิวเตอร์"),
-        ScrapedGoods("MS-LOGI-W", "เมาส์ไร้สาย Logitech M185", 490, 40, "https://img.example.com/mouse-logi.jpg", "https://shop.example.com/mouse-logi", now, "คอมพิวเตอร์"),
-        ScrapedGoods("RTR-WIFI6", "เราเตอร์ WiFi 6 AX1500", 1890, 200, "https://img.example.com/router-wifi6.jpg", "https://shop.example.com/router-wifi6", now, "อุปกรณ์เครือข่าย"),
+        ScrapedGoods("PAP-A4-80", "กระดาษ A4 80 แกรม (5 รีม)", 750, 50, "https://picsum.photos/seed/PAP-A4-80/200/200", "https://shop.example.com/paper-a4", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("INK-HP680-BK", "หมึกพิมพ์ HP 680 Black", 450, None, "https://picsum.photos/seed/INK-HP680-BK/200/200", "https://shop.example.com/ink-hp680-bk", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("INK-HP680-CL", "หมึกพิมพ์ HP 680 Color", 520, 30, "https://picsum.photos/seed/INK-HP680-CL/200/200", "https://shop.example.com/ink-hp680-cl", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("PEN-05-BOX", "ปากกาลูกลื่น 0.5mm (กล่อง 12 ด้าม)", 180, None, "https://picsum.photos/seed/PEN-05-BOX/200/200", "https://shop.example.com/pen-05", now, "เครื่องเขียน"),
+        ScrapedGoods("FLD-A4-W", "แฟ้มสันกว้าง A4", 45, 5, "https://picsum.photos/seed/FLD-A4-W/200/200", "https://shop.example.com/folder-a4", now, "เครื่องเขียน"),
+        ScrapedGoods("NB-A5-LN", "สมุดบันทึก A5 มีเส้น", 65, None, "https://picsum.photos/seed/NB-A5-LN/200/200", "https://shop.example.com/notebook-a5", now, "เครื่องเขียน"),
+        ScrapedGoods("GLU-UHU-21", "กาวแท่ง UHU 21g", 35, None, "https://picsum.photos/seed/GLU-UHU-21/200/200", "https://shop.example.com/glue-uhu", now, "เครื่องเขียน"),
+        ScrapedGoods("CLP-108", "คลิปหนีบกระดาษ No.108 (กล่อง)", 25, None, "https://picsum.photos/seed/CLP-108/200/200", "https://shop.example.com/clip-108", now, "เครื่องเขียน"),
+        ScrapedGoods("STP-MAX-10", "เครื่องเย็บกระดาษ MAX HD-10", 220, 20, "https://picsum.photos/seed/STP-MAX-10/200/200", "https://shop.example.com/stapler-max", now, "เครื่องเขียน"),
+        ScrapedGoods("STW-10", "ลวดเย็บ No.10 (กล่อง)", 15, None, "https://picsum.photos/seed/STW-10/200/200", "https://shop.example.com/staple-wire", now, "เครื่องเขียน"),
+        ScrapedGoods("PC-DELL-V", "คอมพิวเตอร์ Dell Vostro i5/8GB/256SSD", 18500, 1500, "https://picsum.photos/seed/PC-DELL-V/200/200", "https://shop.example.com/dell-vostro", now, "คอมพิวเตอร์"),
+        ScrapedGoods("MON-24", "จอมอนิเตอร์ 24 นิ้ว IPS", 4500, 300, "https://picsum.photos/seed/MON-24/200/200", "https://shop.example.com/monitor-24", now, "คอมพิวเตอร์"),
+        ScrapedGoods("KB-USB", "คีย์บอร์ด USB", 350, None, "https://picsum.photos/seed/KB-USB/200/200", "https://shop.example.com/keyboard", now, "คอมพิวเตอร์"),
+        ScrapedGoods("MS-LOGI-W", "เมาส์ไร้สาย Logitech M185", 490, 40, "https://picsum.photos/seed/MS-LOGI-W/200/200", "https://shop.example.com/mouse-logi", now, "คอมพิวเตอร์"),
+        ScrapedGoods("RTR-WIFI6", "เราเตอร์ WiFi 6 AX1500", 1890, 200, "https://picsum.photos/seed/RTR-WIFI6/200/200", "https://shop.example.com/router-wifi6", now, "อุปกรณ์เครือข่าย"),
     ]
 
 
 def _demo_jib() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("JIB-NB001", "Notebook Lenovo IdeaPad 3 15IAU7 i5/8GB/512SSD", 16990, 2000, "https://www.jib.co.th/img/nb-lenovo.jpg", "https://www.jib.co.th/web/product/readProduct/40/40", now, "โน้ตบุ๊ค"),
-        ScrapedGoods("JIB-NB002", "Notebook ASUS VivoBook 15 OLED i7/16GB/512SSD", 24990, 3000, "https://www.jib.co.th/img/nb-asus.jpg", "https://www.jib.co.th/web/product/readProduct/41/41", now, "โน้ตบุ๊ค"),
-        ScrapedGoods("JIB-MON01", "Monitor LG 27UL550 27\" 4K IPS", 7990, 1000, "https://www.jib.co.th/img/mon-lg.jpg", "https://www.jib.co.th/web/product/readProduct/42/42", now, "จอมอนิเตอร์"),
-        ScrapedGoods("JIB-PRN01", "Printer HP LaserJet M111a", 3990, 500, "https://www.jib.co.th/img/prn-hp.jpg", "https://www.jib.co.th/web/product/readProduct/43/43", now, "เครื่องพิมพ์"),
-        ScrapedGoods("JIB-KB01", "Keyboard Logitech K380 Multi-Device", 1290, 200, "https://www.jib.co.th/img/kb-logi.jpg", "https://www.jib.co.th/web/product/readProduct/44/44", now, "อุปกรณ์ต่อพ่วง"),
-        ScrapedGoods("JIB-MS01", "Mouse Razer DeathAdder Essential", 890, 100, "https://www.jib.co.th/img/ms-razer.jpg", "https://www.jib.co.th/web/product/readProduct/45/45", now, "อุปกรณ์ต่อพ่วง"),
-        ScrapedGoods("JIB-SSD01", "SSD Samsung 870 EVO 1TB", 2490, 300, "https://www.jib.co.th/img/ssd-samsung.jpg", "https://www.jib.co.th/web/product/readProduct/46/46", now, "สตอเรจ"),
-        ScrapedGoods("JIB-RAM01", "RAM Kingston Fury Beast DDR5 16GB", 1890, None, "https://www.jib.co.th/img/ram-kingston.jpg", "https://www.jib.co.th/web/product/readProduct/47/47", now, "อุปกรณ์คอมพิวเตอร์"),
+        ScrapedGoods("JIB-NB001", "Notebook Lenovo IdeaPad 3 15IAU7 i5/8GB/512SSD", 16990, 2000, "https://picsum.photos/seed/JIB-NB001/200/200", "https://www.jib.co.th/web/product/readProduct/40/40", now, "โน้ตบุ๊ค"),
+        ScrapedGoods("JIB-NB002", "Notebook ASUS VivoBook 15 OLED i7/16GB/512SSD", 24990, 3000, "https://picsum.photos/seed/JIB-NB002/200/200", "https://www.jib.co.th/web/product/readProduct/41/41", now, "โน้ตบุ๊ค"),
+        ScrapedGoods("JIB-MON01", "Monitor LG 27UL550 27\" 4K IPS", 7990, 1000, "https://picsum.photos/seed/JIB-MON01/200/200", "https://www.jib.co.th/web/product/readProduct/42/42", now, "จอมอนิเตอร์"),
+        ScrapedGoods("JIB-PRN01", "Printer HP LaserJet M111a", 3990, 500, "https://picsum.photos/seed/JIB-PRN01/200/200", "https://www.jib.co.th/web/product/readProduct/43/43", now, "เครื่องพิมพ์"),
+        ScrapedGoods("JIB-KB01", "Keyboard Logitech K380 Multi-Device", 1290, 200, "https://picsum.photos/seed/JIB-KB01/200/200", "https://www.jib.co.th/web/product/readProduct/44/44", now, "อุปกรณ์ต่อพ่วง"),
+        ScrapedGoods("JIB-MS01", "Mouse Razer DeathAdder Essential", 890, 100, "https://picsum.photos/seed/JIB-MS01/200/200", "https://www.jib.co.th/web/product/readProduct/45/45", now, "อุปกรณ์ต่อพ่วง"),
+        ScrapedGoods("JIB-SSD01", "SSD Samsung 870 EVO 1TB", 2490, 300, "https://picsum.photos/seed/JIB-SSD01/200/200", "https://www.jib.co.th/web/product/readProduct/46/46", now, "สตอเรจ"),
+        ScrapedGoods("JIB-RAM01", "RAM Kingston Fury Beast DDR5 16GB", 1890, None, "https://picsum.photos/seed/JIB-RAM01/200/200", "https://www.jib.co.th/web/product/readProduct/47/47", now, "อุปกรณ์คอมพิวเตอร์"),
     ]
 
 
 def _demo_banana() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("BNN-MBA-M3", "MacBook Air 13\" M3 8/256GB", 37900, None, "https://www.bnn.in.th/img/mba-m3.jpg", "https://www.bnn.in.th/th/p/mac/macbook-air-m3", now, "Mac"),
-        ScrapedGoods("BNN-MBP-M3P", "MacBook Pro 14\" M3 Pro 18/512GB", 64900, 2000, "https://www.bnn.in.th/img/mbp-m3pro.jpg", "https://www.bnn.in.th/th/p/mac/macbook-pro-m3pro", now, "Mac"),
-        ScrapedGoods("BNN-IP15-128", "iPhone 15 128GB", 28900, 1000, "https://www.bnn.in.th/img/ip15.jpg", "https://www.bnn.in.th/th/p/iphone/iphone-15", now, "iPhone"),
-        ScrapedGoods("BNN-IPAD10", "iPad 10th Gen WiFi 64GB", 14900, 500, "https://www.bnn.in.th/img/ipad10.jpg", "https://www.bnn.in.th/th/p/ipad/ipad-10", now, "iPad"),
-        ScrapedGoods("BNN-AW-SE", "Apple Watch SE 2nd Gen 40mm", 8900, None, "https://www.bnn.in.th/img/aw-se.jpg", "https://www.bnn.in.th/th/p/apple-watch/apple-watch-se", now, "Apple Watch"),
-        ScrapedGoods("BNN-AP-PRO2", "AirPods Pro 2nd Gen USB-C", 8690, 300, "https://www.bnn.in.th/img/airpods-pro2.jpg", "https://www.bnn.in.th/th/p/accessories/airpods-pro-2", now, "อุปกรณ์เสริม"),
+        ScrapedGoods("BNN-MBA-M3", "MacBook Air 13\" M3 8/256GB", 37900, None, "https://picsum.photos/seed/BNN-MBA-M3/200/200", "https://www.bnn.in.th/th/p/mac/macbook-air-m3", now, "Mac"),
+        ScrapedGoods("BNN-MBP-M3P", "MacBook Pro 14\" M3 Pro 18/512GB", 64900, 2000, "https://picsum.photos/seed/BNN-MBP-M3P/200/200", "https://www.bnn.in.th/th/p/mac/macbook-pro-m3pro", now, "Mac"),
+        ScrapedGoods("BNN-IP15-128", "iPhone 15 128GB", 28900, 1000, "https://picsum.photos/seed/BNN-IP15-128/200/200", "https://www.bnn.in.th/th/p/iphone/iphone-15", now, "iPhone"),
+        ScrapedGoods("BNN-IPAD10", "iPad 10th Gen WiFi 64GB", 14900, 500, "https://picsum.photos/seed/BNN-IPAD10/200/200", "https://www.bnn.in.th/th/p/ipad/ipad-10", now, "iPad"),
+        ScrapedGoods("BNN-AW-SE", "Apple Watch SE 2nd Gen 40mm", 8900, None, "https://picsum.photos/seed/BNN-AW-SE/200/200", "https://www.bnn.in.th/th/p/apple-watch/apple-watch-se", now, "Apple Watch"),
+        ScrapedGoods("BNN-AP-PRO2", "AirPods Pro 2nd Gen USB-C", 8690, 300, "https://picsum.photos/seed/BNN-AP-PRO2/200/200", "https://www.bnn.in.th/th/p/accessories/airpods-pro-2", now, "อุปกรณ์เสริม"),
     ]
 
 
 def _demo_shopee() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("SPE-001", "ปากกาลูกลื่น Pilot G-1 0.5mm กล่อง 12 ด้าม", 156, 20, "https://shopee.co.th/img/pen-pilot.jpg", "https://shopee.co.th/product/1/1001", now, "เครื่องเขียน"),
-        ScrapedGoods("SPE-002", "กระดาษถ่ายเอกสาร A4 80 แกรม Double A (500 แผ่น)", 165, 15, "https://shopee.co.th/img/paper-da.jpg", "https://shopee.co.th/product/1/1002", now, "อุปกรณ์สำนักงาน"),
-        ScrapedGoods("SPE-003", "เครื่องคิดเลข Casio MX-12B 12 หลัก", 295, 30, "https://shopee.co.th/img/calc-casio.jpg", "https://shopee.co.th/product/1/1003", now, "อุปกรณ์สำนักงาน"),
-        ScrapedGoods("SPE-004", "แฟ้มเอกสาร A4 คละสี 12 แฟ้ม", 120, 10, "https://shopee.co.th/img/folder-color.jpg", "https://shopee.co.th/product/1/1004", now, "อุปกรณ์สำนักงาน"),
-        ScrapedGoods("SPE-005", "สายLAN Cat6 10 เมตร", 89, None, "https://shopee.co.th/img/lan-cat6.jpg", "https://shopee.co.th/product/1/1005", now, "อุปกรณ์เครือข่าย"),
+        ScrapedGoods("SPE-001", "ปากกาลูกลื่น Pilot G-1 0.5mm กล่อง 12 ด้าม", 156, 20, "https://picsum.photos/seed/SPE-001/200/200", "https://shopee.co.th/product/1/1001", now, "เครื่องเขียน"),
+        ScrapedGoods("SPE-002", "กระดาษถ่ายเอกสาร A4 80 แกรม Double A (500 แผ่น)", 165, 15, "https://picsum.photos/seed/SPE-002/200/200", "https://shopee.co.th/product/1/1002", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("SPE-003", "เครื่องคิดเลข Casio MX-12B 12 หลัก", 295, 30, "https://picsum.photos/seed/SPE-003/200/200", "https://shopee.co.th/product/1/1003", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("SPE-004", "แฟ้มเอกสาร A4 คละสี 12 แฟ้ม", 120, 10, "https://picsum.photos/seed/SPE-004/200/200", "https://shopee.co.th/product/1/1004", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("SPE-005", "สายLAN Cat6 10 เมตร", 89, None, "https://picsum.photos/seed/SPE-005/200/200", "https://shopee.co.th/product/1/1005", now, "อุปกรณ์เครือข่าย"),
     ]
 
 
 def _demo_lazada() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("LZD-001", "เก้าอี้สำนักงาน รุ่น Ergonomic Mesh", 3490, 500, "https://lazada.co.th/img/chair.jpg", "https://www.lazada.co.th/products/i1001.html", now, "เฟอร์นิเจอร์สำนักงาน"),
-        ScrapedGoods("LZD-002", "โต๊ะทำงานไม้ 120x60 cm", 2990, 300, "https://lazada.co.th/img/desk.jpg", "https://www.lazada.co.th/products/i1002.html", now, "เฟอร์นิเจอร์สำนักงาน"),
-        ScrapedGoods("LZD-003", "ตู้เก็บเอกสาร 3 ลิ้นชัก", 1890, 200, "https://lazada.co.th/img/cabinet.jpg", "https://www.lazada.co.th/products/i1003.html", now, "เฟอร์นิเจอร์สำนักงาน"),
-        ScrapedGoods("LZD-004", "หมึก Epson 003 Original (4 สี)", 920, 80, "https://lazada.co.th/img/ink-epson.jpg", "https://www.lazada.co.th/products/i1004.html", now, "อุปกรณ์สำนักงาน"),
-        ScrapedGoods("LZD-005", "กล่องเก็บเอกสาร A4 ชุด 5 ใบ", 250, 30, "https://lazada.co.th/img/box-a4.jpg", "https://www.lazada.co.th/products/i1005.html", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("LZD-001", "เก้าอี้สำนักงาน รุ่น Ergonomic Mesh", 3490, 500, "https://picsum.photos/seed/LZD-001/200/200", "https://www.lazada.co.th/products/i1001.html", now, "เฟอร์นิเจอร์สำนักงาน"),
+        ScrapedGoods("LZD-002", "โต๊ะทำงานไม้ 120x60 cm", 2990, 300, "https://picsum.photos/seed/LZD-002/200/200", "https://www.lazada.co.th/products/i1002.html", now, "เฟอร์นิเจอร์สำนักงาน"),
+        ScrapedGoods("LZD-003", "ตู้เก็บเอกสาร 3 ลิ้นชัก", 1890, 200, "https://picsum.photos/seed/LZD-003/200/200", "https://www.lazada.co.th/products/i1003.html", now, "เฟอร์นิเจอร์สำนักงาน"),
+        ScrapedGoods("LZD-004", "หมึก Epson 003 Original (4 สี)", 920, 80, "https://picsum.photos/seed/LZD-004/200/200", "https://www.lazada.co.th/products/i1004.html", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("LZD-005", "กล่องเก็บเอกสาร A4 ชุด 5 ใบ", 250, 30, "https://picsum.photos/seed/LZD-005/200/200", "https://www.lazada.co.th/products/i1005.html", now, "อุปกรณ์สำนักงาน"),
     ]
 
 
 def _demo_lotuss() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("LT-001", "กระดาษ A4 80g Navigator 500 แผ่น", 175, 10, "https://lotuss.com/img/paper-navigator.jpg", "https://www.lotuss.com/th/product/paper-navigator", now, "เครื่องเขียนและอุปกรณ์"),
-        ScrapedGoods("LT-002", "ปากกาเมจิก ตราม้า 12 สี", 65, None, "https://lotuss.com/img/pen-horse.jpg", "https://www.lotuss.com/th/product/pen-horse-12", now, "เครื่องเขียนและอุปกรณ์"),
-        ScrapedGoods("LT-003", "เทปกาว OPP ใส 2 นิ้ว x 100 หลา", 45, 5, "https://lotuss.com/img/tape-opp.jpg", "https://www.lotuss.com/th/product/tape-opp-100y", now, "เครื่องเขียนและอุปกรณ์"),
-        ScrapedGoods("LT-004", "กาแฟ Nescafe 3in1 30 ซอง", 189, 20, "https://lotuss.com/img/coffee-nescafe.jpg", "https://www.lotuss.com/th/product/nescafe-3in1-30", now, "เครื่องดื่ม"),
-        ScrapedGoods("LT-005", "น้ำดื่ม Nestle Pure Life 1.5L x6", 79, None, "https://lotuss.com/img/water-nestle.jpg", "https://www.lotuss.com/th/product/nestle-water-6", now, "เครื่องดื่ม"),
+        ScrapedGoods("LT-001", "กระดาษ A4 80g Navigator 500 แผ่น", 175, 10, "https://picsum.photos/seed/LT-001/200/200", "https://www.lotuss.com/th/product/paper-navigator", now, "เครื่องเขียนและอุปกรณ์"),
+        ScrapedGoods("LT-002", "ปากกาเมจิก ตราม้า 12 สี", 65, None, "https://picsum.photos/seed/LT-002/200/200", "https://www.lotuss.com/th/product/pen-horse-12", now, "เครื่องเขียนและอุปกรณ์"),
+        ScrapedGoods("LT-003", "เทปกาว OPP ใส 2 นิ้ว x 100 หลา", 45, 5, "https://picsum.photos/seed/LT-003/200/200", "https://www.lotuss.com/th/product/tape-opp-100y", now, "เครื่องเขียนและอุปกรณ์"),
+        ScrapedGoods("LT-004", "กาแฟ Nescafe 3in1 30 ซอง", 189, 20, "https://picsum.photos/seed/LT-004/200/200", "https://www.lotuss.com/th/product/nescafe-3in1-30", now, "เครื่องดื่ม"),
+        ScrapedGoods("LT-005", "น้ำดื่ม Nestle Pure Life 1.5L x6", 79, None, "https://picsum.photos/seed/LT-005/200/200", "https://www.lotuss.com/th/product/nestle-water-6", now, "เครื่องดื่ม"),
     ]
 
 
 def _demo_bigc() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("BC-001", "กระดาษชำระ Cellox 24 ม้วน", 249, 30, "https://bigc.co.th/img/tissue-cellox.jpg", "https://www.bigc.co.th/product/tissue-cellox-24", now, "ของใช้สำนักงาน"),
-        ScrapedGoods("BC-002", "สบู่เหลวล้างมือ Dettol 500ml", 119, 10, "https://bigc.co.th/img/soap-dettol.jpg", "https://www.bigc.co.th/product/dettol-hand-soap", now, "ของใช้สำนักงาน"),
-        ScrapedGoods("BC-003", "ถุงขยะ ชนิดหนา 30x40 นิ้ว 15 ใบ", 55, None, "https://bigc.co.th/img/bag-trash.jpg", "https://www.bigc.co.th/product/trash-bag-30x40", now, "ของใช้สำนักงาน"),
-        ScrapedGoods("BC-004", "น้ำยาทำความสะอาด Ajax 900ml", 89, 10, "https://bigc.co.th/img/cleaner-ajax.jpg", "https://www.bigc.co.th/product/ajax-cleaner", now, "ของใช้สำนักงาน"),
-        ScrapedGoods("BC-005", "แบตเตอรี่ AA Energizer Max 8 ก้อน", 179, 20, "https://bigc.co.th/img/battery-energizer.jpg", "https://www.bigc.co.th/product/energizer-aa-8", now, "อุปกรณ์ไฟฟ้า"),
+        ScrapedGoods("BC-001", "กระดาษชำระ Cellox 24 ม้วน", 249, 30, "https://picsum.photos/seed/BC-001/200/200", "https://www.bigc.co.th/product/tissue-cellox-24", now, "ของใช้สำนักงาน"),
+        ScrapedGoods("BC-002", "สบู่เหลวล้างมือ Dettol 500ml", 119, 10, "https://picsum.photos/seed/BC-002/200/200", "https://www.bigc.co.th/product/dettol-hand-soap", now, "ของใช้สำนักงาน"),
+        ScrapedGoods("BC-003", "ถุงขยะ ชนิดหนา 30x40 นิ้ว 15 ใบ", 55, None, "https://picsum.photos/seed/BC-003/200/200", "https://www.bigc.co.th/product/trash-bag-30x40", now, "ของใช้สำนักงาน"),
+        ScrapedGoods("BC-004", "น้ำยาทำความสะอาด Ajax 900ml", 89, 10, "https://picsum.photos/seed/BC-004/200/200", "https://www.bigc.co.th/product/ajax-cleaner", now, "ของใช้สำนักงาน"),
+        ScrapedGoods("BC-005", "แบตเตอรี่ AA Energizer Max 8 ก้อน", 179, 20, "https://picsum.photos/seed/BC-005/200/200", "https://www.bigc.co.th/product/energizer-aa-8", now, "อุปกรณ์ไฟฟ้า"),
     ]
 
 
 def _demo_lnwshop() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("LNW-001", "กระเป๋าเอกสาร หนัง PU สีดำ", 590, 50, "https://lnwshop.com/img/bag-doc.jpg", "https://myshop.lnwshop.com/product/1", now, "กระเป๋า"),
-        ScrapedGoods("LNW-002", "ปากกาหมึกซึม Parker Jotter", 790, None, "https://lnwshop.com/img/pen-parker.jpg", "https://myshop.lnwshop.com/product/2", now, "เครื่องเขียน"),
-        ScrapedGoods("LNW-003", "สมุดวาดภาพ Canson A3 20 แผ่น", 185, 15, "https://lnwshop.com/img/sketchbook-canson.jpg", "https://myshop.lnwshop.com/product/3", now, "เครื่องเขียน"),
-        ScrapedGoods("LNW-004", "แท่นชาร์จ USB-C 65W PD", 890, 100, "https://lnwshop.com/img/charger-65w.jpg", "https://myshop.lnwshop.com/product/4", now, "อุปกรณ์ไอที"),
-        ScrapedGoods("LNW-005", "เคส iPad Air ฝาพับ Smart Cover", 450, 50, "https://lnwshop.com/img/case-ipad.jpg", "https://myshop.lnwshop.com/product/5", now, "อุปกรณ์เสริม"),
+        ScrapedGoods("LNW-001", "กระเป๋าเอกสาร หนัง PU สีดำ", 590, 50, "https://picsum.photos/seed/LNW-001/200/200", "https://myshop.lnwshop.com/product/1", now, "กระเป๋า"),
+        ScrapedGoods("LNW-002", "ปากกาหมึกซึม Parker Jotter", 790, None, "https://picsum.photos/seed/LNW-002/200/200", "https://myshop.lnwshop.com/product/2", now, "เครื่องเขียน"),
+        ScrapedGoods("LNW-003", "สมุดวาดภาพ Canson A3 20 แผ่น", 185, 15, "https://picsum.photos/seed/LNW-003/200/200", "https://myshop.lnwshop.com/product/3", now, "เครื่องเขียน"),
+        ScrapedGoods("LNW-004", "แท่นชาร์จ USB-C 65W PD", 890, 100, "https://picsum.photos/seed/LNW-004/200/200", "https://myshop.lnwshop.com/product/4", now, "อุปกรณ์ไอที"),
+        ScrapedGoods("LNW-005", "เคส iPad Air ฝาพับ Smart Cover", 450, 50, "https://picsum.photos/seed/LNW-005/200/200", "https://myshop.lnwshop.com/product/5", now, "อุปกรณ์เสริม"),
     ]
 
 

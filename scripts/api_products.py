@@ -563,41 +563,41 @@ PROVIDERS = {
 def demo_lnwshop() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("LNW-API-001", "ปากกา Parker IM Ballpoint", 890, 100, "https://myshop.lnwshop.com/img/parker-im.jpg", "https://myshop.lnwshop.com/product/1", now, "เครื่องเขียน"),
-        ScrapedGoods("LNW-API-002", "กระเป๋าเอกสาร Samsonite", 2490, 300, "https://myshop.lnwshop.com/img/samsonite.jpg", "https://myshop.lnwshop.com/product/2", now, "กระเป๋า"),
-        ScrapedGoods("LNW-API-003", "แท่นชาร์จ Anker 65W GaN", 1290, 150, "https://myshop.lnwshop.com/img/anker-65w.jpg", "https://myshop.lnwshop.com/product/3", now, "อุปกรณ์ไอที"),
-        ScrapedGoods("LNW-API-004", "สายชาร์จ USB-C to C 2m", 290, None, "https://myshop.lnwshop.com/img/usbc-cable.jpg", "https://myshop.lnwshop.com/product/4", now, "อุปกรณ์ไอที"),
+        ScrapedGoods("LNW-API-001", "ปากกา Parker IM Ballpoint", 890, 100, "https://picsum.photos/seed/LNW-API-001/200/200", "https://myshop.lnwshop.com/product/1", now, "เครื่องเขียน"),
+        ScrapedGoods("LNW-API-002", "กระเป๋าเอกสาร Samsonite", 2490, 300, "https://picsum.photos/seed/LNW-API-002/200/200", "https://myshop.lnwshop.com/product/2", now, "กระเป๋า"),
+        ScrapedGoods("LNW-API-003", "แท่นชาร์จ Anker 65W GaN", 1290, 150, "https://picsum.photos/seed/LNW-API-003/200/200", "https://myshop.lnwshop.com/product/3", now, "อุปกรณ์ไอที"),
+        ScrapedGoods("LNW-API-004", "สายชาร์จ USB-C to C 2m", 290, None, "https://picsum.photos/seed/LNW-API-004/200/200", "https://myshop.lnwshop.com/product/4", now, "อุปกรณ์ไอที"),
     ]
 
 
 def demo_shopee() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("SPE-API-001", "เครื่องพิมพ์ HP Smart Tank 515 WiFi", 4990, 500, "https://shopee.co.th/img/hp-515.jpg", "https://shopee.co.th/product/shop1/i001", now, "เครื่องพิมพ์"),
-        ScrapedGoods("SPE-API-002", "กระดาษ A4 Navigator 80g (5 รีม)", 850, 50, "https://shopee.co.th/img/navigator-5ream.jpg", "https://shopee.co.th/product/shop1/i002", now, "อุปกรณ์สำนักงาน"),
-        ScrapedGoods("SPE-API-003", "หมึกเติม Epson 003 แท้ 4 สี", 920, 80, "https://shopee.co.th/img/epson-003.jpg", "https://shopee.co.th/product/shop1/i003", now, "หมึกพิมพ์"),
-        ScrapedGoods("SPE-API-004", "แฟ้มซอง A4 สีใส (20 ซอง)", 89, 10, "https://shopee.co.th/img/folder-clear.jpg", "https://shopee.co.th/product/shop1/i004", now, "อุปกรณ์สำนักงาน"),
-        ScrapedGoods("SPE-API-005", "เครื่องเย็บกระดาษ SDI Heavy Duty", 350, 40, "https://shopee.co.th/img/stapler-sdi.jpg", "https://shopee.co.th/product/shop1/i005", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("SPE-API-001", "เครื่องพิมพ์ HP Smart Tank 515 WiFi", 4990, 500, "https://picsum.photos/seed/SPE-API-001/200/200", "https://shopee.co.th/product/shop1/i001", now, "เครื่องพิมพ์"),
+        ScrapedGoods("SPE-API-002", "กระดาษ A4 Navigator 80g (5 รีม)", 850, 50, "https://picsum.photos/seed/SPE-API-002/200/200", "https://shopee.co.th/product/shop1/i002", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("SPE-API-003", "หมึกเติม Epson 003 แท้ 4 สี", 920, 80, "https://picsum.photos/seed/SPE-API-003/200/200", "https://shopee.co.th/product/shop1/i003", now, "หมึกพิมพ์"),
+        ScrapedGoods("SPE-API-004", "แฟ้มซอง A4 สีใส (20 ซอง)", 89, 10, "https://picsum.photos/seed/SPE-API-004/200/200", "https://shopee.co.th/product/shop1/i004", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("SPE-API-005", "เครื่องเย็บกระดาษ SDI Heavy Duty", 350, 40, "https://picsum.photos/seed/SPE-API-005/200/200", "https://shopee.co.th/product/shop1/i005", now, "อุปกรณ์สำนักงาน"),
     ]
 
 
 def demo_lazada() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("LZD-API-001", "โต๊ะทำงาน L-Shape 150x120cm", 5990, 800, "https://lazada.co.th/img/desk-lshape.jpg", "https://www.lazada.co.th/products/i2001.html", now, "เฟอร์นิเจอร์"),
-        ScrapedGoods("LZD-API-002", "เก้าอี้สำนักงาน Ergonomic Pro", 8990, 1500, "https://lazada.co.th/img/chair-ergo.jpg", "https://www.lazada.co.th/products/i2002.html", now, "เฟอร์นิเจอร์"),
-        ScrapedGoods("LZD-API-003", "ชั้นวางหนังสือ 5 ชั้น ไม้จริง", 2490, 300, "https://lazada.co.th/img/shelf-5tier.jpg", "https://www.lazada.co.th/products/i2003.html", now, "เฟอร์นิเจอร์"),
-        ScrapedGoods("LZD-API-004", "ไวท์บอร์ด 90x120cm พร้อมขาตั้ง", 1590, 200, "https://lazada.co.th/img/whiteboard.jpg", "https://www.lazada.co.th/products/i2004.html", now, "อุปกรณ์สำนักงาน"),
+        ScrapedGoods("LZD-API-001", "โต๊ะทำงาน L-Shape 150x120cm", 5990, 800, "https://picsum.photos/seed/LZD-API-001/200/200", "https://www.lazada.co.th/products/i2001.html", now, "เฟอร์นิเจอร์"),
+        ScrapedGoods("LZD-API-002", "เก้าอี้สำนักงาน Ergonomic Pro", 8990, 1500, "https://picsum.photos/seed/LZD-API-002/200/200", "https://www.lazada.co.th/products/i2002.html", now, "เฟอร์นิเจอร์"),
+        ScrapedGoods("LZD-API-003", "ชั้นวางหนังสือ 5 ชั้น ไม้จริง", 2490, 300, "https://picsum.photos/seed/LZD-API-003/200/200", "https://www.lazada.co.th/products/i2003.html", now, "เฟอร์นิเจอร์"),
+        ScrapedGoods("LZD-API-004", "ไวท์บอร์ด 90x120cm พร้อมขาตั้ง", 1590, 200, "https://picsum.photos/seed/LZD-API-004/200/200", "https://www.lazada.co.th/products/i2004.html", now, "อุปกรณ์สำนักงาน"),
     ]
 
 
 def demo_bigc() -> list[ScrapedGoods]:
     now = datetime.now().isoformat()
     return [
-        ScrapedGoods("BC-API-001", "น้ำยาล้างจาน Sunlight 900ml", 69, 10, "https://bigc.co.th/img/sunlight-900.jpg", "https://www.bigc.co.th/product/sunlight-900", now, "ของใช้สำนักงาน"),
-        ScrapedGoods("BC-API-002", "กระดาษทิชชู่ Scott 24 ม้วน", 259, 30, "https://bigc.co.th/img/scott-24.jpg", "https://www.bigc.co.th/product/scott-tissue-24", now, "ของใช้สำนักงาน"),
-        ScrapedGoods("BC-API-003", "ถ่าน Panasonic Eneloop AA 4 ก้อน", 450, 50, "https://bigc.co.th/img/eneloop-aa4.jpg", "https://www.bigc.co.th/product/eneloop-aa-4", now, "อุปกรณ์ไฟฟ้า"),
-        ScrapedGoods("BC-API-004", "แอลกอฮอล์เจล Dettol 500ml", 149, 20, "https://bigc.co.th/img/dettol-gel.jpg", "https://www.bigc.co.th/product/dettol-gel-500", now, "ของใช้สำนักงาน"),
+        ScrapedGoods("BC-API-001", "น้ำยาล้างจาน Sunlight 900ml", 69, 10, "https://picsum.photos/seed/BC-API-001/200/200", "https://www.bigc.co.th/product/sunlight-900", now, "ของใช้สำนักงาน"),
+        ScrapedGoods("BC-API-002", "กระดาษทิชชู่ Scott 24 ม้วน", 259, 30, "https://picsum.photos/seed/BC-API-002/200/200", "https://www.bigc.co.th/product/scott-tissue-24", now, "ของใช้สำนักงาน"),
+        ScrapedGoods("BC-API-003", "ถ่าน Panasonic Eneloop AA 4 ก้อน", 450, 50, "https://picsum.photos/seed/BC-API-003/200/200", "https://www.bigc.co.th/product/eneloop-aa-4", now, "อุปกรณ์ไฟฟ้า"),
+        ScrapedGoods("BC-API-004", "แอลกอฮอล์เจล Dettol 500ml", 149, 20, "https://picsum.photos/seed/BC-API-004/200/200", "https://www.bigc.co.th/product/dettol-gel-500", now, "ของใช้สำนักงาน"),
     ]
 
 
