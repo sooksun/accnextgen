@@ -1,0 +1,4 @@
+// Prisma Schema - Link to root schema
+// This file references the main schema at root/prisma/schema.prisma
+// Generate Prisma Client from root schema
+
