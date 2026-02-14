@@ -1,8 +1,0 @@
-goods_id,goods_name,price_per_piece,discount,images_url,get_web_url,หมวดหมู่
-PAP-001,กระดาษ A4 80 แกรม,150,10,https://img.example.com/paper-a4.jpg,https://shop.example.com/paper-a4,อุปกรณ์สำนักงาน
-INK-CAN-47,หมึกพิมพ์ Canon PG-47 Black,390,,https://img.example.com/ink-canon.jpg,https://shop.example.com/ink-canon,อุปกรณ์สำนักงาน
-PEN-MAGIC-12,ปากกาเมจิก 12 สี,85,5,,https://shop.example.com/pen-magic,เครื่องเขียน
-FLD-A4-001,แฟ้มเอกสาร A4 สันกว้าง,42,,,,เครื่องเขียน
-USB-32G,USB Flash Drive 32GB,199,20,https://img.example.com/usb-32g.jpg,https://shop.example.com/usb-32g,คอมพิวเตอร์
-SVC-PRINT,บริการติดตั้งเครื่องพิมพ์,500,,,,บริการ IT
-SVC-NB-REP,บริการซ่อม Notebook,1200,100,,https://shop.example.com/repair,บริการ IT
