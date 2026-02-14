@@ -1,0 +1,28 @@
+App 3043397 output:    Downloading swc package @next/swc-linux-x64-gnu... to /home/solutio9/.cache/next-swc
+App 3441876 output: node:internal/modules/cjs/loader:1368
+App 3441876 output:   throw err;
+App 3441876 output:   ^
+App 3441876 output: 
+App 3441876 output: Error: Cannot find module 'next'
+App 3441876 output: Require stack:
+App 3441876 output: - /home/solutio9/accnextgen/server.js
+App 3441876 output: - /opt/passenger/src/helper-scripts/node-loader.js
+App 3441876 output:     at Module._resolveFilename (node:internal/modules/cjs/loader:1365:15)
+App 3441876 output:     at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+App 3441876 output:     at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+App 3441876 output:     at Module._load (node:internal/modules/cjs/loader:1175:37)
+App 3441876 output:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+App 3441876 output:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+App 3441876 output:     at Module.require (node:internal/modules/cjs/loader:1445:12)
+App 3441876 output:     at Module.require (/opt/passenger/src/helper-scripts/node-loader.js:80:25)
+App 3441876 output:     at require (node:internal/modules/helpers:135:16)
+App 3441876 output:     at Object.<anonymous> (/home/solutio9/accnextgen/server.js:10:14) {
+App 3441876 output:   code: 'MODULE_NOT_FOUND',
+App 3441876 output:   requireStack: [
+App 3441876 output:     '/home/solutio9/accnextgen/server.js',
+App 3441876 output:     '/opt/passenger/src/helper-scripts/node-loader.js'
+App 3441876 output:   ]
+App 3441876 output: }
+App 3441876 output: 
+App 3441876 output: Node.js v22.18.0
+App 3529418 output: > Ready on http://localhost:3000
